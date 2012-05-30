@@ -1,9 +1,12 @@
-;;;----------------------------------------------------------------------
-;; grail.el
-;; Primary Author: Mike Mattie
-;; Copyright (C) 2008,2009 Mike Mattie
+;;; grail.el --- load Emacs configuration in a modular and mode aware manner
+
+;; Copyright (C) 2008, 2009 Mike Mattie
+
+;; Author: Mike Mattie
 ;; License: LGPL-v3
-;;----------------------------------------------------------------------
+
+;;;----------------------------------------------------------------------
+;;; Commentary:
 
 ;; Grail loads an .emacs configuration in a robust, modular, and mode
 ;; aware manner.
@@ -57,6 +60,8 @@
 ;; The README.grail file provides installation instructions a more
 ;; detailed description of the file and directory structure that is
 ;; significant to Grail.
+
+;;; Code:
 
 (defconst grail-release-version "0.3.1"
   "the release number of grail.el")
